@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  MDBFooter,
-  MDBContainer,
-  MDBCol,
-  MDBRow,
-  MDBIcon,
-  MDBBtn,
-} from "mdb-react-ui-kit";
+import { MDBFooter, MDBContainer, MDBIcon, MDBBtn } from "mdb-react-ui-kit";
 
 export default function App() {
   return (
@@ -17,12 +10,10 @@ export default function App() {
             floating
             className="m-1"
             style={{ backgroundColor: "#333333" }}
-            href="#!"
+            href="https://github.com/thempower/16.waiter-app"
             role="button"
           >
-            <a className="text-white" href="https://mdbootstrap.com/">
-              <MDBIcon fab icon="github" />
-            </a>
+            <MDBIcon fab icon="github" />
           </MDBBtn>
         </section>
       </MDBContainer>
